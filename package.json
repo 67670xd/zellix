@@ -1,0 +1,25 @@
+{
+    "name": "zellix",
+    "version": "1.0.0",
+    "description": "Ultimate Gaming Community Hub for Discord gaming communities",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "start": "turbo run start",
+        "test": "turbo run test",
+        "lint": "turbo run lint"
+    },
+    "devDependencies": {
+        "turbo": "^1.10.16",
+        "typescript": "^5.3.3"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    }
+}

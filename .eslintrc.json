@@ -1,0 +1,16 @@
+// @ts-check
+
+/** @type {import('eslint').Linter.Config} */
+const config = {
+  root: true,
+  extends: [
+    'eslint:recommended',
+    'next/core-web-vitals',
+  ],
+  rules: {
+    'react/no-unescaped-entities': 'off',
+    '@next/next/no-html-link-for-pages': 'off',
+  },
+};
+
+module.exports = config;
