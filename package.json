@@ -24,7 +24,7 @@
         "postcss": "^8.4.32",
         "autoprefixer": "^10.4.17",
         "clsx": "^2.0.0",
-        "lucide-react": "^0.293.0",
+        "lucide-react": "^0.562.0",
         "recharts": "^2.10.3",
         "framer-motion": "^10.16.16",
         "zustand": "^4.4.7",
