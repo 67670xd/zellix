@@ -1,0 +1,10 @@
+apps/bot
+packages/database/prisma
+packages/shared
+.git
+.gitignore
+README.md
+docker-compose.yml
+nginx.conf
+deploy.sh
+*.md
