@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useSession, signIn } from 'next-auth/react';
 
-const DISCORD_SERVER = 'https://discord.gg/YOUR_INVITE_CODE'; // Замени на свой инвайт
+const DISCORD_SERVER = 'https://discord.gg/eCF3J6G7aH';
 
 export default function Home() {
   const { data: session } = useSession();
